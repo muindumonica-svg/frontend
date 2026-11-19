@@ -1,0 +1,72 @@
+{
+  "id": "/",
+  "name": "BrathaMatu — Kuku POS & Shop",
+  "short_name": "BrathaMatu",
+  "description": "Fresh poultry storefront and the BrathaMatu staff till: sales, stock, M-Pesa and delivery in one app.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "lang": "en-KE",
+  "dir": "ltr",
+  "categories": ["shopping", "business", "food"],
+  "prefer_related_applications": false,
+  "background_color": "#221A13",
+  "theme_color": "#221A13",
+  "icons": [
+    {
+      "src": "/pwa/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa/icon-maskable-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open the till",
+      "short_name": "POS",
+      "description": "Start a sale at this branch",
+      "url": "/pos",
+      "icons": [{ "src": "/pwa/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Shop online",
+      "short_name": "Shop",
+      "description": "Browse today's stock",
+      "url": "/shop",
+      "icons": [{ "src": "/pwa/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Today's sales and stock",
+      "url": "/dashboard",
+      "icons": [{ "src": "/pwa/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
