@@ -12,8 +12,9 @@
 ## Protected API contract
 
 This repository is the BrathaMatu frontend. The Laravel API is maintained
-separately. Treat `docs/API_CONTRACT.md`, `src/lib/api.ts`,
-`src/api/hooks/`, and `src/types/api.ts` as a compatibility boundary.
+separately. Treat `docs/API_CONTRACT.md`,
+`docs/LOVABLE_API_COMPATIBILITY.md`, `src/lib/api.ts`, `src/api/hooks/`, and
+`src/types/api.ts` as a compatibility boundary.
 
 - Do not rename, remove, reinterpret, or silently change API routes, HTTP
   methods, request fields, response fields, status values, permission names,
